@@ -55,7 +55,6 @@ def generate_launch_description():
         prefix='xterm -e'
     )
 
-    # ✅ Add your laser filtering node
     laser_filter_node = Node(
         package='bot_control',
         executable='reading_laser',
@@ -68,5 +67,5 @@ def generate_launch_description():
         gazebo,
         spawn_entity,
         teleop,
-        laser_filter_node  # 👈 this line runs your laser filtering node
+        laser_filter_node  
     ])
