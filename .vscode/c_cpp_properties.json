@@ -1,0 +1,27 @@
+{
+    "configurations": [
+      {
+        "name": "ROS2",
+        "includePath": [
+          "${workspaceFolder}/**",
+          "/opt/ros/humble/include/**",
+          "/usr/include/**"
+        ],
+        "defines": [],
+        "compilerPath": "/usr/bin/g++",
+        "cStandard": "c11",
+        "cppStandard": "c++17",
+        "intelliSenseMode": "linux-gcc-x64",
+        "browse": {
+          "path": [
+            "${workspaceFolder}",
+            "/opt/ros/humble/include",
+            "/usr/include"
+          ],
+          "limitSymbolsToIncludedHeaders": false
+        }
+      }
+    ],
+    "version": 4
+  }
+  

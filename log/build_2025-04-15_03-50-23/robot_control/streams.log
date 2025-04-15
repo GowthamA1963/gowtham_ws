@@ -1,0 +1,44 @@
+[0.014s] Invoking command in '/home/gowthama/gowtham_ws/build/robot_control': CMAKE_PREFIX_PATH=/home/gowthama/ros2_ws/install/ydlidar_sdk:/home/gowthama/ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble:/home/gowthama/ros2_ws/install/custom_robot_description:/home/gowthama/ros2_ws/install/aws_robomaker_hospital_world /usr/bin/cmake /home/gowthama/gowtham_ws/src/robot_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/gowthama/gowtham_ws/install/robot_control
+[0.165s] -- The C compiler identification is GNU 11.4.0
+[0.281s] -- The CXX compiler identification is GNU 11.4.0
+[0.295s] -- Detecting C compiler ABI info
+[0.401s] -- Detecting C compiler ABI info - done
+[0.409s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.410s] -- Detecting C compile features
+[0.411s] -- Detecting C compile features - done
+[0.416s] -- Detecting CXX compiler ABI info
+[0.531s] -- Detecting CXX compiler ABI info - done
+[0.540s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.540s] -- Detecting CXX compile features
+[0.540s] -- Detecting CXX compile features - done
+[0.547s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.747s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.830s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.897s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.998s] -- Added test 'lint_cmake' to check CMake code style
+[0.999s] -- Added test 'xmllint' to check XML markup files
+[1.002s] -- Configuring done
+[1.006s] -- Generating done
+[1.008s] -- Build files have been written to: /home/gowthama/gowtham_ws/build/robot_control
+[1.013s] Invoked command in '/home/gowthama/gowtham_ws/build/robot_control' returned '0': CMAKE_PREFIX_PATH=/home/gowthama/ros2_ws/install/ydlidar_sdk:/home/gowthama/ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble:/home/gowthama/ros2_ws/install/custom_robot_description:/home/gowthama/ros2_ws/install/aws_robomaker_hospital_world /usr/bin/cmake /home/gowthama/gowtham_ws/src/robot_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/gowthama/gowtham_ws/install/robot_control
+[1.015s] Invoking command in '/home/gowthama/gowtham_ws/build/robot_control': CMAKE_PREFIX_PATH=/home/gowthama/ros2_ws/install/ydlidar_sdk:/home/gowthama/ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble:/home/gowthama/ros2_ws/install/custom_robot_description:/home/gowthama/ros2_ws/install/aws_robomaker_hospital_world /usr/bin/cmake --build /home/gowthama/gowtham_ws/build/robot_control -- -j12 -l12
+[1.066s] Invoked command in '/home/gowthama/gowtham_ws/build/robot_control' returned '0': CMAKE_PREFIX_PATH=/home/gowthama/ros2_ws/install/ydlidar_sdk:/home/gowthama/ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble:/home/gowthama/ros2_ws/install/custom_robot_description:/home/gowthama/ros2_ws/install/aws_robomaker_hospital_world /usr/bin/cmake --build /home/gowthama/gowtham_ws/build/robot_control -- -j12 -l12
+[1.080s] Invoking command in '/home/gowthama/gowtham_ws/build/robot_control': CMAKE_PREFIX_PATH=/home/gowthama/ros2_ws/install/ydlidar_sdk:/home/gowthama/ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble:/home/gowthama/ros2_ws/install/custom_robot_description:/home/gowthama/ros2_ws/install/aws_robomaker_hospital_world /usr/bin/cmake --install /home/gowthama/gowtham_ws/build/robot_control
+[1.088s] -- Install configuration: ""
+[1.089s] -- Execute custom install script
+[1.089s] -- Symlinking: /home/gowthama/gowtham_ws/install/robot_control/share/ament_index/resource_index/package_run_dependencies/robot_control
+[1.101s] -- Symlinking: /home/gowthama/gowtham_ws/install/robot_control/share/ament_index/resource_index/parent_prefix_path/robot_control
+[1.113s] -- Symlinking: /home/gowthama/gowtham_ws/install/robot_control/share/robot_control/environment/ament_prefix_path.sh
+[1.124s] -- Symlinking: /home/gowthama/gowtham_ws/install/robot_control/share/robot_control/environment/ament_prefix_path.dsv
+[1.136s] -- Symlinking: /home/gowthama/gowtham_ws/install/robot_control/share/robot_control/environment/path.sh
+[1.148s] -- Symlinking: /home/gowthama/gowtham_ws/install/robot_control/share/robot_control/environment/path.dsv
+[1.160s] -- Symlinking: /home/gowthama/gowtham_ws/install/robot_control/share/robot_control/local_setup.bash
+[1.171s] -- Symlinking: /home/gowthama/gowtham_ws/install/robot_control/share/robot_control/local_setup.sh
+[1.182s] -- Symlinking: /home/gowthama/gowtham_ws/install/robot_control/share/robot_control/local_setup.zsh
+[1.195s] -- Symlinking: /home/gowthama/gowtham_ws/install/robot_control/share/robot_control/local_setup.dsv
+[1.206s] -- Symlinking: /home/gowthama/gowtham_ws/install/robot_control/share/robot_control/package.dsv
+[1.218s] -- Symlinking: /home/gowthama/gowtham_ws/install/robot_control/share/ament_index/resource_index/packages/robot_control
+[1.230s] -- Symlinking: /home/gowthama/gowtham_ws/install/robot_control/share/robot_control/cmake/robot_controlConfig.cmake
+[1.240s] -- Symlinking: /home/gowthama/gowtham_ws/install/robot_control/share/robot_control/cmake/robot_controlConfig-version.cmake
+[1.252s] -- Symlinking: /home/gowthama/gowtham_ws/install/robot_control/share/robot_control/package.xml
+[1.265s] Invoked command in '/home/gowthama/gowtham_ws/build/robot_control' returned '0': CMAKE_PREFIX_PATH=/home/gowthama/ros2_ws/install/ydlidar_sdk:/home/gowthama/ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble:/home/gowthama/ros2_ws/install/custom_robot_description:/home/gowthama/ros2_ws/install/aws_robomaker_hospital_world /usr/bin/cmake --install /home/gowthama/gowtham_ws/build/robot_control

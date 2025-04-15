@@ -1,0 +1,202 @@
+[0.179s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.179s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7b4c91425720>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7b4c914252d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7b4c914252d0>>)
+[0.501s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.501s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.501s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.501s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.501s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.501s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.501s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/gowthama/gowtham_ws'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_description) by extension 'ignore'
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_description) by extension 'ignore_ament_install'
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_description) by extensions ['colcon_pkg']
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_description) by extension 'colcon_pkg'
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_description) by extensions ['colcon_meta']
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_description) by extension 'colcon_meta'
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_description) by extensions ['ros']
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_description) by extension 'ros'
+[0.520s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bot_description' with type 'ros.ament_cmake' and name 'bot_description'
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_world) by extensions ['ignore', 'ignore_ament_install']
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_world) by extension 'ignore'
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_world) by extension 'ignore_ament_install'
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_world) by extensions ['colcon_pkg']
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_world) by extension 'colcon_pkg'
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_world) by extensions ['colcon_meta']
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_world) by extension 'colcon_meta'
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_world) by extensions ['ros']
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_world) by extension 'ros'
+[0.521s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bot_world' with type 'ros.ament_cmake' and name 'bot_world'
+[0.521s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.521s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.521s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.521s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.521s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.565s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.566s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.569s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/gowthama/gowtham_ws/install
+[0.570s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/gowthama/ros2_ws/install
+[0.572s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 393 installed packages in /opt/ros/humble
+[0.574s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.631s] Level 5:colcon.colcon_core.verb:set package 'bot_description' build argument 'cmake_args' from command line to 'None'
+[0.631s] Level 5:colcon.colcon_core.verb:set package 'bot_description' build argument 'cmake_target' from command line to 'None'
+[0.631s] Level 5:colcon.colcon_core.verb:set package 'bot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.631s] Level 5:colcon.colcon_core.verb:set package 'bot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.631s] Level 5:colcon.colcon_core.verb:set package 'bot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.631s] Level 5:colcon.colcon_core.verb:set package 'bot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.631s] Level 5:colcon.colcon_core.verb:set package 'bot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.631s] Level 5:colcon.colcon_core.verb:set package 'bot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.631s] Level 5:colcon.colcon_core.verb:set package 'bot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.631s] DEBUG:colcon.colcon_core.verb:Building package 'bot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gowthama/gowtham_ws/build/bot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gowthama/gowtham_ws/install/bot_description', 'merge_install': False, 'path': '/home/gowthama/gowtham_ws/src/bot_description', 'symlink_install': True, 'test_result_base': None}
+[0.632s] Level 5:colcon.colcon_core.verb:set package 'bot_world' build argument 'cmake_args' from command line to 'None'
+[0.632s] Level 5:colcon.colcon_core.verb:set package 'bot_world' build argument 'cmake_target' from command line to 'None'
+[0.632s] Level 5:colcon.colcon_core.verb:set package 'bot_world' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.632s] Level 5:colcon.colcon_core.verb:set package 'bot_world' build argument 'cmake_clean_cache' from command line to 'False'
+[0.632s] Level 5:colcon.colcon_core.verb:set package 'bot_world' build argument 'cmake_clean_first' from command line to 'False'
+[0.632s] Level 5:colcon.colcon_core.verb:set package 'bot_world' build argument 'cmake_force_configure' from command line to 'False'
+[0.632s] Level 5:colcon.colcon_core.verb:set package 'bot_world' build argument 'ament_cmake_args' from command line to 'None'
+[0.632s] Level 5:colcon.colcon_core.verb:set package 'bot_world' build argument 'catkin_cmake_args' from command line to 'None'
+[0.632s] Level 5:colcon.colcon_core.verb:set package 'bot_world' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.632s] DEBUG:colcon.colcon_core.verb:Building package 'bot_world' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gowthama/gowtham_ws/build/bot_world', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gowthama/gowtham_ws/install/bot_world', 'merge_install': False, 'path': '/home/gowthama/gowtham_ws/src/bot_world', 'symlink_install': True, 'test_result_base': None}
+[0.632s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.633s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.634s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gowthama/gowtham_ws/src/bot_description' with build type 'ament_cmake'
+[0.634s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gowthama/gowtham_ws/src/bot_description'
+[0.637s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.637s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.637s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.643s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gowthama/gowtham_ws/src/bot_world' with build type 'ament_cmake'
+[0.643s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gowthama/gowtham_ws/src/bot_world'
+[0.643s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.643s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.654s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gowthama/gowtham_ws/build/bot_description': CMAKE_PREFIX_PATH=/home/gowthama/gowtham_ws/install/bot_world:/home/gowthama/gowtham_ws/install/robot_control:/home/gowthama/gowtham_ws/install/gowtham_ros:/home/gowthama/gowtham_ws/install/bot_description:/home/gowthama/ros2_ws/install/ydlidar_sdk:/home/gowthama/ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble:/home/gowthama/ros2_ws/install/custom_robot_description:/home/gowthama/ros2_ws/install/aws_robomaker_hospital_world /usr/bin/cmake --build /home/gowthama/gowtham_ws/build/bot_description -- -j12 -l12
+[0.658s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gowthama/gowtham_ws/build/bot_world': CMAKE_PREFIX_PATH=/home/gowthama/gowtham_ws/install/bot_world:/home/gowthama/gowtham_ws/install/robot_control:/home/gowthama/gowtham_ws/install/gowtham_ros:/home/gowthama/gowtham_ws/install/bot_description:/home/gowthama/ros2_ws/install/ydlidar_sdk:/home/gowthama/ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble:/home/gowthama/ros2_ws/install/custom_robot_description:/home/gowthama/ros2_ws/install/aws_robomaker_hospital_world /usr/bin/cmake --build /home/gowthama/gowtham_ws/build/bot_world -- -j12 -l12
+[0.712s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gowthama/gowtham_ws/build/bot_description' returned '0': CMAKE_PREFIX_PATH=/home/gowthama/gowtham_ws/install/bot_world:/home/gowthama/gowtham_ws/install/robot_control:/home/gowthama/gowtham_ws/install/gowtham_ros:/home/gowthama/gowtham_ws/install/bot_description:/home/gowthama/ros2_ws/install/ydlidar_sdk:/home/gowthama/ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble:/home/gowthama/ros2_ws/install/custom_robot_description:/home/gowthama/ros2_ws/install/aws_robomaker_hospital_world /usr/bin/cmake --build /home/gowthama/gowtham_ws/build/bot_description -- -j12 -l12
+[0.725s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gowthama/gowtham_ws/build/bot_description': CMAKE_PREFIX_PATH=/home/gowthama/gowtham_ws/install/bot_world:/home/gowthama/gowtham_ws/install/robot_control:/home/gowthama/gowtham_ws/install/gowtham_ros:/home/gowthama/gowtham_ws/install/bot_description:/home/gowthama/ros2_ws/install/ydlidar_sdk:/home/gowthama/ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble:/home/gowthama/ros2_ws/install/custom_robot_description:/home/gowthama/ros2_ws/install/aws_robomaker_hospital_world /usr/bin/cmake --install /home/gowthama/gowtham_ws/build/bot_description
+[0.727s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gowthama/gowtham_ws/build/bot_world' returned '0': CMAKE_PREFIX_PATH=/home/gowthama/gowtham_ws/install/bot_world:/home/gowthama/gowtham_ws/install/robot_control:/home/gowthama/gowtham_ws/install/gowtham_ros:/home/gowthama/gowtham_ws/install/bot_description:/home/gowthama/ros2_ws/install/ydlidar_sdk:/home/gowthama/ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble:/home/gowthama/ros2_ws/install/custom_robot_description:/home/gowthama/ros2_ws/install/aws_robomaker_hospital_world /usr/bin/cmake --build /home/gowthama/gowtham_ws/build/bot_world -- -j12 -l12
+[0.729s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gowthama/gowtham_ws/build/bot_world': CMAKE_PREFIX_PATH=/home/gowthama/gowtham_ws/install/bot_world:/home/gowthama/gowtham_ws/install/robot_control:/home/gowthama/gowtham_ws/install/gowtham_ros:/home/gowthama/gowtham_ws/install/bot_description:/home/gowthama/ros2_ws/install/ydlidar_sdk:/home/gowthama/ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble:/home/gowthama/ros2_ws/install/custom_robot_description:/home/gowthama/ros2_ws/install/aws_robomaker_hospital_world /usr/bin/cmake --install /home/gowthama/gowtham_ws/build/bot_world
+[0.756s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bot_description)
+[0.757s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gowthama/gowtham_ws/build/bot_description' returned '0': CMAKE_PREFIX_PATH=/home/gowthama/gowtham_ws/install/bot_world:/home/gowthama/gowtham_ws/install/robot_control:/home/gowthama/gowtham_ws/install/gowtham_ros:/home/gowthama/gowtham_ws/install/bot_description:/home/gowthama/ros2_ws/install/ydlidar_sdk:/home/gowthama/ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble:/home/gowthama/ros2_ws/install/custom_robot_description:/home/gowthama/ros2_ws/install/aws_robomaker_hospital_world /usr/bin/cmake --install /home/gowthama/gowtham_ws/build/bot_description
+[0.763s] Level 1:colcon.colcon_core.environment:checking '/home/gowthama/gowtham_ws/install/bot_description' for CMake module files
+[0.764s] Level 1:colcon.colcon_core.environment:checking '/home/gowthama/gowtham_ws/install/bot_description' for CMake config files
+[0.764s] Level 1:colcon.colcon_core.shell:create_environment_hook('bot_description', 'cmake_prefix_path')
+[0.764s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gowthama/gowtham_ws/install/bot_description/share/bot_description/hook/cmake_prefix_path.ps1'
+[0.765s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gowthama/gowtham_ws/install/bot_description/share/bot_description/hook/cmake_prefix_path.dsv'
+[0.766s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gowthama/gowtham_ws/install/bot_description/share/bot_description/hook/cmake_prefix_path.sh'
+[0.767s] Level 1:colcon.colcon_core.environment:checking '/home/gowthama/gowtham_ws/install/bot_description/bin'
+[0.767s] Level 1:colcon.colcon_core.environment:checking '/home/gowthama/gowtham_ws/install/bot_description/lib/pkgconfig/bot_description.pc'
+[0.768s] Level 1:colcon.colcon_core.environment:checking '/home/gowthama/gowtham_ws/install/bot_description/lib/python3.10/site-packages'
+[0.768s] Level 1:colcon.colcon_core.environment:checking '/home/gowthama/gowtham_ws/install/bot_description/bin'
+[0.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowthama/gowtham_ws/install/bot_description/share/bot_description/package.ps1'
+[0.769s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gowthama/gowtham_ws/install/bot_description/share/bot_description/package.dsv'
+[0.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowthama/gowtham_ws/install/bot_description/share/bot_description/package.sh'
+[0.771s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowthama/gowtham_ws/install/bot_description/share/bot_description/package.bash'
+[0.771s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowthama/gowtham_ws/install/bot_description/share/bot_description/package.zsh'
+[0.772s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gowthama/gowtham_ws/install/bot_description/share/colcon-core/packages/bot_description)
+[0.773s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bot_description)
+[0.774s] Level 1:colcon.colcon_core.environment:checking '/home/gowthama/gowtham_ws/install/bot_description' for CMake module files
+[0.774s] Level 1:colcon.colcon_core.environment:checking '/home/gowthama/gowtham_ws/install/bot_description' for CMake config files
+[0.775s] Level 1:colcon.colcon_core.shell:create_environment_hook('bot_description', 'cmake_prefix_path')
+[0.775s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gowthama/gowtham_ws/install/bot_description/share/bot_description/hook/cmake_prefix_path.ps1'
+[0.775s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gowthama/gowtham_ws/install/bot_description/share/bot_description/hook/cmake_prefix_path.dsv'
+[0.776s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gowthama/gowtham_ws/install/bot_description/share/bot_description/hook/cmake_prefix_path.sh'
+[0.777s] Level 1:colcon.colcon_core.environment:checking '/home/gowthama/gowtham_ws/install/bot_description/bin'
+[0.777s] Level 1:colcon.colcon_core.environment:checking '/home/gowthama/gowtham_ws/install/bot_description/lib/pkgconfig/bot_description.pc'
+[0.777s] Level 1:colcon.colcon_core.environment:checking '/home/gowthama/gowtham_ws/install/bot_description/lib/python3.10/site-packages'
+[0.777s] Level 1:colcon.colcon_core.environment:checking '/home/gowthama/gowtham_ws/install/bot_description/bin'
+[0.777s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowthama/gowtham_ws/install/bot_description/share/bot_description/package.ps1'
+[0.778s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gowthama/gowtham_ws/install/bot_description/share/bot_description/package.dsv'
+[0.778s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowthama/gowtham_ws/install/bot_description/share/bot_description/package.sh'
+[0.779s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowthama/gowtham_ws/install/bot_description/share/bot_description/package.bash'
+[0.779s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowthama/gowtham_ws/install/bot_description/share/bot_description/package.zsh'
+[0.780s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gowthama/gowtham_ws/install/bot_description/share/colcon-core/packages/bot_description)
+[0.780s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bot_world)
+[0.780s] Level 1:colcon.colcon_core.environment:checking '/home/gowthama/gowtham_ws/install/bot_world' for CMake module files
+[0.782s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gowthama/gowtham_ws/build/bot_world' returned '0': CMAKE_PREFIX_PATH=/home/gowthama/gowtham_ws/install/bot_world:/home/gowthama/gowtham_ws/install/robot_control:/home/gowthama/gowtham_ws/install/gowtham_ros:/home/gowthama/gowtham_ws/install/bot_description:/home/gowthama/ros2_ws/install/ydlidar_sdk:/home/gowthama/ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble:/home/gowthama/ros2_ws/install/custom_robot_description:/home/gowthama/ros2_ws/install/aws_robomaker_hospital_world /usr/bin/cmake --install /home/gowthama/gowtham_ws/build/bot_world
+[0.782s] Level 1:colcon.colcon_core.environment:checking '/home/gowthama/gowtham_ws/install/bot_world' for CMake config files
+[0.783s] Level 1:colcon.colcon_core.shell:create_environment_hook('bot_world', 'cmake_prefix_path')
+[0.783s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gowthama/gowtham_ws/install/bot_world/share/bot_world/hook/cmake_prefix_path.ps1'
+[0.784s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gowthama/gowtham_ws/install/bot_world/share/bot_world/hook/cmake_prefix_path.dsv'
+[0.784s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gowthama/gowtham_ws/install/bot_world/share/bot_world/hook/cmake_prefix_path.sh'
+[0.785s] Level 1:colcon.colcon_core.environment:checking '/home/gowthama/gowtham_ws/install/bot_world/bin'
+[0.786s] Level 1:colcon.colcon_core.environment:checking '/home/gowthama/gowtham_ws/install/bot_world/lib/pkgconfig/bot_world.pc'
+[0.786s] Level 1:colcon.colcon_core.environment:checking '/home/gowthama/gowtham_ws/install/bot_world/lib/python3.10/site-packages'
+[0.786s] Level 1:colcon.colcon_core.environment:checking '/home/gowthama/gowtham_ws/install/bot_world/bin'
+[0.786s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowthama/gowtham_ws/install/bot_world/share/bot_world/package.ps1'
+[0.787s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gowthama/gowtham_ws/install/bot_world/share/bot_world/package.dsv'
+[0.788s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowthama/gowtham_ws/install/bot_world/share/bot_world/package.sh'
+[0.788s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowthama/gowtham_ws/install/bot_world/share/bot_world/package.bash'
+[0.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowthama/gowtham_ws/install/bot_world/share/bot_world/package.zsh'
+[0.789s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gowthama/gowtham_ws/install/bot_world/share/colcon-core/packages/bot_world)
+[0.790s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bot_world)
+[0.790s] Level 1:colcon.colcon_core.environment:checking '/home/gowthama/gowtham_ws/install/bot_world' for CMake module files
+[0.791s] Level 1:colcon.colcon_core.environment:checking '/home/gowthama/gowtham_ws/install/bot_world' for CMake config files
+[0.792s] Level 1:colcon.colcon_core.shell:create_environment_hook('bot_world', 'cmake_prefix_path')
+[0.792s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gowthama/gowtham_ws/install/bot_world/share/bot_world/hook/cmake_prefix_path.ps1'
+[0.793s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gowthama/gowtham_ws/install/bot_world/share/bot_world/hook/cmake_prefix_path.dsv'
+[0.793s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gowthama/gowtham_ws/install/bot_world/share/bot_world/hook/cmake_prefix_path.sh'
+[0.794s] Level 1:colcon.colcon_core.environment:checking '/home/gowthama/gowtham_ws/install/bot_world/bin'
+[0.794s] Level 1:colcon.colcon_core.environment:checking '/home/gowthama/gowtham_ws/install/bot_world/lib/pkgconfig/bot_world.pc'
+[0.795s] Level 1:colcon.colcon_core.environment:checking '/home/gowthama/gowtham_ws/install/bot_world/lib/python3.10/site-packages'
+[0.795s] Level 1:colcon.colcon_core.environment:checking '/home/gowthama/gowtham_ws/install/bot_world/bin'
+[0.795s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowthama/gowtham_ws/install/bot_world/share/bot_world/package.ps1'
+[0.796s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gowthama/gowtham_ws/install/bot_world/share/bot_world/package.dsv'
+[0.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowthama/gowtham_ws/install/bot_world/share/bot_world/package.sh'
+[0.797s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowthama/gowtham_ws/install/bot_world/share/bot_world/package.bash'
+[0.797s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowthama/gowtham_ws/install/bot_world/share/bot_world/package.zsh'
+[0.798s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gowthama/gowtham_ws/install/bot_world/share/colcon-core/packages/bot_world)
+[0.798s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.799s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.799s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.799s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.806s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.806s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.806s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.821s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.821s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gowthama/gowtham_ws/install/local_setup.ps1'
+[0.823s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/gowthama/gowtham_ws/install/_local_setup_util_ps1.py'
+[0.824s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gowthama/gowtham_ws/install/setup.ps1'
+[0.826s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gowthama/gowtham_ws/install/local_setup.sh'
+[0.827s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/gowthama/gowtham_ws/install/_local_setup_util_sh.py'
+[0.828s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gowthama/gowtham_ws/install/setup.sh'
+[0.829s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gowthama/gowtham_ws/install/local_setup.bash'
+[0.830s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gowthama/gowtham_ws/install/setup.bash'
+[0.831s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gowthama/gowtham_ws/install/local_setup.zsh'
+[0.832s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gowthama/gowtham_ws/install/setup.zsh'

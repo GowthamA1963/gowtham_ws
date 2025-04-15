@@ -1,0 +1,50 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/launch/world.launch.py
+-- Symlinking: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/worlds/build/.built_by
+[33mCMake Warning (dev) at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:62 (file):
+  Policy CMP0009 is not set: FILE GLOB_RECURSE calls should not follow
+  symlinks by default.  Run "cmake --help-policy CMP0009" for policy details.
+  Use the cmake_policy command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314 (ament_cmake_symlink_install_directory)
+  cmake_install.cmake:46 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Symlinking: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/worlds/build/COLCON_IGNORE
+-- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/worlds/custom_map.world
+-- Symlinking: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/worlds/install/.colcon_install_layout
+-- Symlinking: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/worlds/install/COLCON_IGNORE
+-- Symlinking: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/worlds/install/_local_setup_util_ps1.py
+-- Symlinking: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/worlds/install/_local_setup_util_sh.py
+-- Symlinking: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/worlds/install/local_setup.bash
+-- Symlinking: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/worlds/install/local_setup.ps1
+-- Symlinking: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/worlds/install/local_setup.sh
+-- Symlinking: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/worlds/install/local_setup.zsh
+-- Symlinking: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/worlds/install/setup.bash
+-- Symlinking: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/worlds/install/setup.ps1
+-- Symlinking: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/worlds/install/setup.sh
+-- Symlinking: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/worlds/install/setup.zsh
+-- Symlinking: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/worlds/log/COLCON_IGNORE
+-- Symlinking: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/worlds/log/build_2025-04-15_11-11-13/events.log
+-- Symlinking: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/worlds/log/build_2025-04-15_11-11-13/logger_all.log
+-- Symlinking: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/worlds/log/latest/events.log
+-- Symlinking: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/worlds/log/latest/logger_all.log
+-- Symlinking: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/worlds/log/latest_build/events.log
+-- Symlinking: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/worlds/log/latest_build/logger_all.log
+-- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/worlds/my_world.world
+-- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_world/share/ament_index/resource_index/package_run_dependencies/bot_world
+-- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_world/share/ament_index/resource_index/parent_prefix_path/bot_world
+-- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/environment/path.sh
+-- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/environment/path.dsv
+-- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/local_setup.bash
+-- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/local_setup.sh
+-- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/local_setup.zsh
+-- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/local_setup.dsv
+-- Symlinking: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/package.dsv
+-- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_world/share/ament_index/resource_index/packages/bot_world
+-- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/cmake/bot_worldConfig.cmake
+-- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/cmake/bot_worldConfig-version.cmake
+-- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/package.xml

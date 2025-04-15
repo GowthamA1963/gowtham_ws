@@ -1,0 +1,6 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/reading_laser.dir/scripts/reading_laser.cpp.o[0m
+[100%] [32m[1mLinking CXX executable reading_laser[0m
+[100%] Built target reading_laser
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/gowthama/gowtham_ws/install/bot_control/share/bot_control/launch/control.launch.py

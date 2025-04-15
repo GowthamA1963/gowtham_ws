@@ -1,0 +1,29 @@
+[0.012s] Invoking command in '/home/gowthama/gowtham_ws/build/bot_description': CMAKE_PREFIX_PATH=/home/gowthama/gowtham_ws/install/bot_world:/home/gowthama/gowtham_ws/install/robot_control:/home/gowthama/gowtham_ws/install/gowtham_ros:/home/gowthama/gowtham_ws/install/bot_description:/home/gowthama/ros2_ws/install/ydlidar_sdk:/home/gowthama/ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble:/home/gowthama/ros2_ws/install/custom_robot_description:/home/gowthama/ros2_ws/install/aws_robomaker_hospital_world /usr/bin/cmake --build /home/gowthama/gowtham_ws/build/bot_description -- -j12 -l12
+[0.047s] Invoked command in '/home/gowthama/gowtham_ws/build/bot_description' returned '0': CMAKE_PREFIX_PATH=/home/gowthama/gowtham_ws/install/bot_world:/home/gowthama/gowtham_ws/install/robot_control:/home/gowthama/gowtham_ws/install/gowtham_ros:/home/gowthama/gowtham_ws/install/bot_description:/home/gowthama/ros2_ws/install/ydlidar_sdk:/home/gowthama/ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble:/home/gowthama/ros2_ws/install/custom_robot_description:/home/gowthama/ros2_ws/install/aws_robomaker_hospital_world /usr/bin/cmake --build /home/gowthama/gowtham_ws/build/bot_description -- -j12 -l12
+[0.056s] Invoking command in '/home/gowthama/gowtham_ws/build/bot_description': CMAKE_PREFIX_PATH=/home/gowthama/gowtham_ws/install/bot_world:/home/gowthama/gowtham_ws/install/robot_control:/home/gowthama/gowtham_ws/install/gowtham_ros:/home/gowthama/gowtham_ws/install/bot_description:/home/gowthama/ros2_ws/install/ydlidar_sdk:/home/gowthama/ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble:/home/gowthama/ros2_ws/install/custom_robot_description:/home/gowthama/ros2_ws/install/aws_robomaker_hospital_world /usr/bin/cmake --install /home/gowthama/gowtham_ws/build/bot_description
+[0.062s] -- Install configuration: ""
+[0.063s] -- Execute custom install script
+[0.063s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_description/share/bot_description/config/empty.yaml
+[0.063s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_description/share/bot_description/description/gazebo_control.xacro
+[0.063s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_description/share/bot_description/description/inertial_macros.xacro
+[0.063s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_description/share/bot_description/description/robot.urdf.xacro
+[0.063s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_description/share/bot_description/description/robot_core.xacro
+[0.063s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_description/share/bot_description/launch/rviz.py
+[0.064s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_description/share/bot_description/launch/spawn.launch.py
+[0.064s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_description/share/bot_description/worlds/empty.world
+[0.064s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_description/share/ament_index/resource_index/package_run_dependencies/bot_description
+[0.064s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_description/share/ament_index/resource_index/parent_prefix_path/bot_description
+[0.064s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_description/share/bot_description/environment/ament_prefix_path.sh
+[0.064s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_description/share/bot_description/environment/ament_prefix_path.dsv
+[0.064s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_description/share/bot_description/environment/path.sh
+[0.064s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_description/share/bot_description/environment/path.dsv
+[0.065s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_description/share/bot_description/local_setup.bash
+[0.065s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_description/share/bot_description/local_setup.sh
+[0.065s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_description/share/bot_description/local_setup.zsh
+[0.065s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_description/share/bot_description/local_setup.dsv
+[0.065s] -- Symlinking: /home/gowthama/gowtham_ws/install/bot_description/share/bot_description/package.dsv
+[0.073s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_description/share/ament_index/resource_index/packages/bot_description
+[0.073s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_description/share/bot_description/cmake/bot_descriptionConfig.cmake
+[0.074s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_description/share/bot_description/cmake/bot_descriptionConfig-version.cmake
+[0.074s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_description/share/bot_description/package.xml
+[0.076s] Invoked command in '/home/gowthama/gowtham_ws/build/bot_description' returned '0': CMAKE_PREFIX_PATH=/home/gowthama/gowtham_ws/install/bot_world:/home/gowthama/gowtham_ws/install/robot_control:/home/gowthama/gowtham_ws/install/gowtham_ros:/home/gowthama/gowtham_ws/install/bot_description:/home/gowthama/ros2_ws/install/ydlidar_sdk:/home/gowthama/ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble:/home/gowthama/ros2_ws/install/custom_robot_description:/home/gowthama/ros2_ws/install/aws_robomaker_hospital_world /usr/bin/cmake --install /home/gowthama/gowtham_ws/build/bot_description

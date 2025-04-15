@@ -1,0 +1,146 @@
+[0.000000] (-) TimerEvent: {}
+[0.000320] (-) JobUnselected: {'identifier': 'bot_description'}
+[0.000551] (bot_world) JobQueued: {'identifier': 'bot_world', 'dependencies': OrderedDict()}
+[0.000873] (bot_world) JobStarted: {'identifier': 'bot_world'}
+[0.008431] (bot_world) JobProgress: {'identifier': 'bot_world', 'progress': 'cmake'}
+[0.008937] (bot_world) Command: {'cmd': ['/usr/bin/cmake', '/home/gowthama/gowtham_ws/src/bot_world', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/gowthama/gowtham_ws/install/bot_world'], 'cwd': '/home/gowthama/gowtham_ws/build/bot_world', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'gowthama'), ('ROS_PACKAGE_PATH', '/home/gowthama/ros2_ws/install/custom_robot_description/share'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/lib:/usr/local/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/gowthama'), ('OLDPWD', '/home/gowthama/gowtham_ws/src/bot_world/scripts'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1687'), ('SYSTEMD_EXEC_PID', '1872'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '101001'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/gowthama/gowtham_ws/install:/home/gowthama/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'gowthama'), ('JOURNAL_STREAM', '8:19475'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/gowthama/ros2_ws/install/custom_robot_description/lib/x86_64-linux-gnu/pkgconfig:/home/gowthama/ros2_ws/install/custom_robot_description/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gowthama'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/gowthama/anaconda3/bin:/home/gowthama/ros2_ws/install/ydlidar_sdk/bin:/opt/ros/humble/bin:/home/gowthama/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/gowthama-HP-Pavilion-Laptop-15-eh2xxx:@/tmp/.ICE-unix/1844,unix/gowthama-HP-Pavilion-Laptop-15-eh2xxx:/tmp/.ICE-unix/1844'), ('INVOCATION_ID', 'ed1bd648591b48568e5c8f46dc4b7a80'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VLMQ42'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/gowthama/gowtham_ws/install/robot_control:/home/gowthama/gowtham_ws/install/gowtham_ros:/home/gowthama/gowtham_ws/install/bot_world:/home/gowthama/gowtham_ws/install/bot_description:/home/gowthama/ros2_ws/install/ydlidar_ros2_driver:/home/gowthama/ros2_ws/install/aws_robomaker_hospital_world:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:99f8165f-eb09-485e-a233-1f213a367e1e'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gowthama/gowtham_ws/build/bot_world'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/gowthama/gowtham_ws/install/robot_control:/home/gowthama/gowtham_ws/install/gowtham_ros:/home/gowthama/gowtham_ws/install/bot_world:/home/gowthama/gowtham_ws/install/bot_description:/home/gowthama/ros2_ws/install/ydlidar_sdk:/home/gowthama/ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble:/home/gowthama/ros2_ws/install/custom_robot_description:/home/gowthama/ros2_ws/install/aws_robomaker_hospital_world')]), 'shell': False}
+[0.021300] (bot_world) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099808] (-) TimerEvent: {}
+[0.117571] (bot_world) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.123352] (bot_world) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.148319] (bot_world) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.150230] (bot_world) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.154852] (bot_world) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.162484] (bot_world) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.172122] (bot_world) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.197415] (bot_world) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.198550] (bot_world) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.199861] (-) TimerEvent: {}
+[0.300099] (-) TimerEvent: {}
+[0.300910] (bot_world) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.339921] (bot_world) StdoutLine: {'line': b'-- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.350552] (bot_world) StdoutLine: {'line': b'-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.363908] (bot_world) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.400184] (-) TimerEvent: {}
+[0.421767] (bot_world) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.422918] (bot_world) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.423054] (bot_world) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.423113] (bot_world) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.424007] (bot_world) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[0.424070] (bot_world) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[0.424315] (bot_world) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.424703] (bot_world) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.424976] (bot_world) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.425983] (bot_world) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.426053] (bot_world) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.426264] (bot_world) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.427042] (bot_world) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.438111] (bot_world) StdoutLine: {'line': b'-- Generating done\n'}
+[0.441492] (bot_world) StdoutLine: {'line': b'-- Build files have been written to: /home/gowthama/gowtham_ws/build/bot_world\n'}
+[0.448663] (bot_world) CommandEnded: {'returncode': 0}
+[0.449176] (bot_world) JobProgress: {'identifier': 'bot_world', 'progress': 'build'}
+[0.449802] (bot_world) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/gowthama/gowtham_ws/build/bot_world', '--', '-j12', '-l12'], 'cwd': '/home/gowthama/gowtham_ws/build/bot_world', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'gowthama'), ('ROS_PACKAGE_PATH', '/home/gowthama/ros2_ws/install/custom_robot_description/share'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/lib:/usr/local/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/gowthama'), ('OLDPWD', '/home/gowthama/gowtham_ws/src/bot_world/scripts'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1687'), ('SYSTEMD_EXEC_PID', '1872'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '101001'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/gowthama/gowtham_ws/install:/home/gowthama/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'gowthama'), ('JOURNAL_STREAM', '8:19475'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/gowthama/ros2_ws/install/custom_robot_description/lib/x86_64-linux-gnu/pkgconfig:/home/gowthama/ros2_ws/install/custom_robot_description/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gowthama'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/gowthama/anaconda3/bin:/home/gowthama/ros2_ws/install/ydlidar_sdk/bin:/opt/ros/humble/bin:/home/gowthama/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/gowthama-HP-Pavilion-Laptop-15-eh2xxx:@/tmp/.ICE-unix/1844,unix/gowthama-HP-Pavilion-Laptop-15-eh2xxx:/tmp/.ICE-unix/1844'), ('INVOCATION_ID', 'ed1bd648591b48568e5c8f46dc4b7a80'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VLMQ42'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/gowthama/gowtham_ws/install/robot_control:/home/gowthama/gowtham_ws/install/gowtham_ros:/home/gowthama/gowtham_ws/install/bot_world:/home/gowthama/gowtham_ws/install/bot_description:/home/gowthama/ros2_ws/install/ydlidar_ros2_driver:/home/gowthama/ros2_ws/install/aws_robomaker_hospital_world:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:99f8165f-eb09-485e-a233-1f213a367e1e'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gowthama/gowtham_ws/build/bot_world'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/gowthama/gowtham_ws/install/robot_control:/home/gowthama/gowtham_ws/install/gowtham_ros:/home/gowthama/gowtham_ws/install/bot_world:/home/gowthama/gowtham_ws/install/bot_description:/home/gowthama/ros2_ws/install/ydlidar_sdk:/home/gowthama/ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble:/home/gowthama/ros2_ws/install/custom_robot_description:/home/gowthama/ros2_ws/install/aws_robomaker_hospital_world')]), 'shell': False}
+[0.494399] (bot_world) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/reading_laser.dir/scripts/reading_laser.cpp.o\x1b[0m\n'}
+[0.500262] (-) TimerEvent: {}
+[0.600560] (-) TimerEvent: {}
+[0.700864] (-) TimerEvent: {}
+[0.801161] (-) TimerEvent: {}
+[0.901476] (-) TimerEvent: {}
+[1.001800] (-) TimerEvent: {}
+[1.102131] (-) TimerEvent: {}
+[1.202452] (-) TimerEvent: {}
+[1.302777] (-) TimerEvent: {}
+[1.403068] (-) TimerEvent: {}
+[1.503398] (-) TimerEvent: {}
+[1.603758] (-) TimerEvent: {}
+[1.704086] (-) TimerEvent: {}
+[1.804412] (-) TimerEvent: {}
+[1.904715] (-) TimerEvent: {}
+[2.004988] (-) TimerEvent: {}
+[2.105259] (-) TimerEvent: {}
+[2.205555] (-) TimerEvent: {}
+[2.305879] (-) TimerEvent: {}
+[2.406168] (-) TimerEvent: {}
+[2.506455] (-) TimerEvent: {}
+[2.606733] (-) TimerEvent: {}
+[2.707035] (-) TimerEvent: {}
+[2.807327] (-) TimerEvent: {}
+[2.907664] (-) TimerEvent: {}
+[3.008020] (-) TimerEvent: {}
+[3.108395] (-) TimerEvent: {}
+[3.208712] (-) TimerEvent: {}
+[3.309025] (-) TimerEvent: {}
+[3.409375] (-) TimerEvent: {}
+[3.509692] (-) TimerEvent: {}
+[3.610032] (-) TimerEvent: {}
+[3.710350] (-) TimerEvent: {}
+[3.810649] (-) TimerEvent: {}
+[3.910928] (-) TimerEvent: {}
+[4.011192] (-) TimerEvent: {}
+[4.111483] (-) TimerEvent: {}
+[4.211777] (-) TimerEvent: {}
+[4.312072] (-) TimerEvent: {}
+[4.412381] (-) TimerEvent: {}
+[4.512701] (-) TimerEvent: {}
+[4.613019] (-) TimerEvent: {}
+[4.713344] (-) TimerEvent: {}
+[4.813642] (-) TimerEvent: {}
+[4.913978] (-) TimerEvent: {}
+[5.014413] (-) TimerEvent: {}
+[5.114740] (-) TimerEvent: {}
+[5.215056] (-) TimerEvent: {}
+[5.315393] (-) TimerEvent: {}
+[5.415706] (-) TimerEvent: {}
+[5.516032] (-) TimerEvent: {}
+[5.616383] (-) TimerEvent: {}
+[5.716687] (-) TimerEvent: {}
+[5.816985] (-) TimerEvent: {}
+[5.917298] (-) TimerEvent: {}
+[6.017617] (-) TimerEvent: {}
+[6.117928] (-) TimerEvent: {}
+[6.218233] (-) TimerEvent: {}
+[6.318585] (-) TimerEvent: {}
+[6.418907] (-) TimerEvent: {}
+[6.519229] (-) TimerEvent: {}
+[6.619542] (-) TimerEvent: {}
+[6.719875] (-) TimerEvent: {}
+[6.820181] (-) TimerEvent: {}
+[6.920495] (-) TimerEvent: {}
+[7.020795] (-) TimerEvent: {}
+[7.121143] (-) TimerEvent: {}
+[7.221575] (-) TimerEvent: {}
+[7.321974] (-) TimerEvent: {}
+[7.422363] (-) TimerEvent: {}
+[7.464189] (bot_world) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable reading_laser\x1b[0m\n'}
+[7.522466] (-) TimerEvent: {}
+[7.622769] (-) TimerEvent: {}
+[7.723085] (-) TimerEvent: {}
+[7.806584] (bot_world) StdoutLine: {'line': b'[100%] Built target reading_laser\n'}
+[7.817406] (bot_world) CommandEnded: {'returncode': 0}
+[7.818032] (bot_world) JobProgress: {'identifier': 'bot_world', 'progress': 'install'}
+[7.823137] (-) TimerEvent: {}
+[7.826914] (bot_world) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/gowthama/gowtham_ws/build/bot_world'], 'cwd': '/home/gowthama/gowtham_ws/build/bot_world', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'gowthama'), ('ROS_PACKAGE_PATH', '/home/gowthama/ros2_ws/install/custom_robot_description/share'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/lib:/usr/local/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/gowthama'), ('OLDPWD', '/home/gowthama/gowtham_ws/src/bot_world/scripts'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1687'), ('SYSTEMD_EXEC_PID', '1872'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '101001'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/gowthama/gowtham_ws/install:/home/gowthama/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'gowthama'), ('JOURNAL_STREAM', '8:19475'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/gowthama/ros2_ws/install/custom_robot_description/lib/x86_64-linux-gnu/pkgconfig:/home/gowthama/ros2_ws/install/custom_robot_description/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gowthama'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/gowthama/anaconda3/bin:/home/gowthama/ros2_ws/install/ydlidar_sdk/bin:/opt/ros/humble/bin:/home/gowthama/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/gowthama-HP-Pavilion-Laptop-15-eh2xxx:@/tmp/.ICE-unix/1844,unix/gowthama-HP-Pavilion-Laptop-15-eh2xxx:/tmp/.ICE-unix/1844'), ('INVOCATION_ID', 'ed1bd648591b48568e5c8f46dc4b7a80'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VLMQ42'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/gowthama/gowtham_ws/install/robot_control:/home/gowthama/gowtham_ws/install/gowtham_ros:/home/gowthama/gowtham_ws/install/bot_world:/home/gowthama/gowtham_ws/install/bot_description:/home/gowthama/ros2_ws/install/ydlidar_ros2_driver:/home/gowthama/ros2_ws/install/aws_robomaker_hospital_world:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:99f8165f-eb09-485e-a233-1f213a367e1e'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gowthama/gowtham_ws/build/bot_world'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/gowthama/gowtham_ws/install/robot_control:/home/gowthama/gowtham_ws/install/gowtham_ros:/home/gowthama/gowtham_ws/install/bot_world:/home/gowthama/gowtham_ws/install/bot_description:/home/gowthama/ros2_ws/install/ydlidar_sdk:/home/gowthama/ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble:/home/gowthama/ros2_ws/install/custom_robot_description:/home/gowthama/ros2_ws/install/aws_robomaker_hospital_world')]), 'shell': False}
+[7.833993] (bot_world) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.834377] (bot_world) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[7.834639] (bot_world) StdoutLine: {'line': b'-- Symlinking: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/launch/control.launch.py\n'}
+[7.843208] (bot_world) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/launch/world.launch.py\n'}
+[7.843486] (bot_world) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/worlds/obstacles.world\n'}
+[7.843846] (bot_world) StdoutLine: {'line': b'-- Symlinking: /home/gowthama/gowtham_ws/install/bot_world/lib/bot_world/reading_laser\n'}
+[7.854303] (bot_world) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_world/share/ament_index/resource_index/package_run_dependencies/bot_world\n'}
+[7.854561] (bot_world) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_world/share/ament_index/resource_index/parent_prefix_path/bot_world\n'}
+[7.854704] (bot_world) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/environment/ament_prefix_path.sh\n'}
+[7.854862] (bot_world) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/environment/ament_prefix_path.dsv\n'}
+[7.855108] (bot_world) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/environment/path.sh\n'}
+[7.855269] (bot_world) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/environment/path.dsv\n'}
+[7.855462] (bot_world) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/local_setup.bash\n'}
+[7.855607] (bot_world) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/local_setup.sh\n'}
+[7.855728] (bot_world) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/local_setup.zsh\n'}
+[7.855854] (bot_world) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/local_setup.dsv\n'}
+[7.855943] (bot_world) StdoutLine: {'line': b'-- Symlinking: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/package.dsv\n'}
+[7.865418] (bot_world) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_world/share/ament_index/resource_index/packages/bot_world\n'}
+[7.865635] (bot_world) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/cmake/bot_worldConfig.cmake\n'}
+[7.865764] (bot_world) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/cmake/bot_worldConfig-version.cmake\n'}
+[7.865879] (bot_world) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/package.xml\n'}
+[7.867891] (bot_world) CommandEnded: {'returncode': 0}
+[7.881843] (bot_world) JobEnded: {'identifier': 'bot_world', 'rc': 0}
+[7.882407] (-) EventReactorShutdown: {}

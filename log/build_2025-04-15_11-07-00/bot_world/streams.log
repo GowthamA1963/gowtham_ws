@@ -1,0 +1,35 @@
+[0.015s] Invoking command in '/home/gowthama/gowtham_ws/build/bot_world': CMAKE_PREFIX_PATH=/home/gowthama/gowtham_ws/install/bot_world:/home/gowthama/gowtham_ws/install/robot_control:/home/gowthama/gowtham_ws/install/gowtham_ros:/home/gowthama/gowtham_ws/install/bot_description:/home/gowthama/ros2_ws/install/ydlidar_sdk:/home/gowthama/ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble:/home/gowthama/ros2_ws/install/custom_robot_description:/home/gowthama/ros2_ws/install/aws_robomaker_hospital_world /usr/bin/cmake --build /home/gowthama/gowtham_ws/build/bot_world -- -j12 -l12
+[0.041s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.181s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.189s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.274s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.277s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.277s] -- Added test 'lint_cmake' to check CMake code style
+[0.278s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.279s] -- Added test 'xmllint' to check XML markup files
+[0.280s] -- Configuring done
+[0.284s] -- Generating done
+[0.287s] -- Build files have been written to: /home/gowthama/gowtham_ws/build/bot_world
+[0.320s] Invoked command in '/home/gowthama/gowtham_ws/build/bot_world' returned '0': CMAKE_PREFIX_PATH=/home/gowthama/gowtham_ws/install/bot_world:/home/gowthama/gowtham_ws/install/robot_control:/home/gowthama/gowtham_ws/install/gowtham_ros:/home/gowthama/gowtham_ws/install/bot_description:/home/gowthama/ros2_ws/install/ydlidar_sdk:/home/gowthama/ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble:/home/gowthama/ros2_ws/install/custom_robot_description:/home/gowthama/ros2_ws/install/aws_robomaker_hospital_world /usr/bin/cmake --build /home/gowthama/gowtham_ws/build/bot_world -- -j12 -l12
+[0.322s] Invoking command in '/home/gowthama/gowtham_ws/build/bot_world': CMAKE_PREFIX_PATH=/home/gowthama/gowtham_ws/install/bot_world:/home/gowthama/gowtham_ws/install/robot_control:/home/gowthama/gowtham_ws/install/gowtham_ros:/home/gowthama/gowtham_ws/install/bot_description:/home/gowthama/ros2_ws/install/ydlidar_sdk:/home/gowthama/ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble:/home/gowthama/ros2_ws/install/custom_robot_description:/home/gowthama/ros2_ws/install/aws_robomaker_hospital_world /usr/bin/cmake --install /home/gowthama/gowtham_ws/build/bot_world
+[0.332s] -- Install configuration: ""
+[0.333s] -- Execute custom install script
+[0.333s] -- Symlinking: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/launch/world.launch.py
+[0.345s] -- Symlinking: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/worlds/custom_map.world
+[0.356s] -- Symlinking: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/worlds/my_world.world
+[0.369s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_world/share/ament_index/resource_index/package_run_dependencies/bot_world
+[0.369s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_world/share/ament_index/resource_index/parent_prefix_path/bot_world
+[0.370s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/environment/ament_prefix_path.sh
+[0.370s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/environment/ament_prefix_path.dsv
+[0.370s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/environment/path.sh
+[0.370s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/environment/path.dsv
+[0.370s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/local_setup.bash
+[0.370s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/local_setup.sh
+[0.371s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/local_setup.zsh
+[0.371s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/local_setup.dsv
+[0.371s] -- Symlinking: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/package.dsv
+[0.384s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_world/share/ament_index/resource_index/packages/bot_world
+[0.384s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/cmake/bot_worldConfig.cmake
+[0.384s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/cmake/bot_worldConfig-version.cmake
+[0.384s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/package.xml
+[0.388s] Invoked command in '/home/gowthama/gowtham_ws/build/bot_world' returned '0': CMAKE_PREFIX_PATH=/home/gowthama/gowtham_ws/install/bot_world:/home/gowthama/gowtham_ws/install/robot_control:/home/gowthama/gowtham_ws/install/gowtham_ros:/home/gowthama/gowtham_ws/install/bot_description:/home/gowthama/ros2_ws/install/ydlidar_sdk:/home/gowthama/ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble:/home/gowthama/ros2_ws/install/custom_robot_description:/home/gowthama/ros2_ws/install/aws_robomaker_hospital_world /usr/bin/cmake --install /home/gowthama/gowtham_ws/build/bot_world

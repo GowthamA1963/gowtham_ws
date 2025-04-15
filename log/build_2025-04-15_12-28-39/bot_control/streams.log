@@ -1,0 +1,18 @@
+[0.016s] Invoking command in '/home/gowthama/gowtham_ws/build/bot_control': CMAKE_PREFIX_PATH=/home/gowthama/gowtham_ws/install/robot_control:/home/gowthama/gowtham_ws/install/gowtham_ros:/home/gowthama/gowtham_ws/install/bot_world:/home/gowthama/gowtham_ws/install/bot_description:/home/gowthama/ros2_ws/install/ydlidar_sdk:/home/gowthama/ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble:/home/gowthama/ros2_ws/install/custom_robot_description:/home/gowthama/ros2_ws/install/aws_robomaker_hospital_world /usr/bin/cmake --build /home/gowthama/gowtham_ws/build/bot_control -- -j12 -l12
+[0.060s] [ 50%] [32mBuilding CXX object CMakeFiles/reading_laser.dir/scripts/reading_laser.cpp.o[0m
+[6.518s] [100%] [32m[1mLinking CXX executable reading_laser[0m
+[6.810s] [100%] Built target reading_laser
+[6.821s] Invoked command in '/home/gowthama/gowtham_ws/build/bot_control' returned '0': CMAKE_PREFIX_PATH=/home/gowthama/gowtham_ws/install/robot_control:/home/gowthama/gowtham_ws/install/gowtham_ros:/home/gowthama/gowtham_ws/install/bot_world:/home/gowthama/gowtham_ws/install/bot_description:/home/gowthama/ros2_ws/install/ydlidar_sdk:/home/gowthama/ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble:/home/gowthama/ros2_ws/install/custom_robot_description:/home/gowthama/ros2_ws/install/aws_robomaker_hospital_world /usr/bin/cmake --build /home/gowthama/gowtham_ws/build/bot_control -- -j12 -l12
+[6.822s] Invoking command in '/home/gowthama/gowtham_ws/build/bot_control': CMAKE_PREFIX_PATH=/home/gowthama/gowtham_ws/install/robot_control:/home/gowthama/gowtham_ws/install/gowtham_ros:/home/gowthama/gowtham_ws/install/bot_world:/home/gowthama/gowtham_ws/install/bot_description:/home/gowthama/ros2_ws/install/ydlidar_sdk:/home/gowthama/ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble:/home/gowthama/ros2_ws/install/custom_robot_description:/home/gowthama/ros2_ws/install/aws_robomaker_hospital_world /usr/bin/cmake --install /home/gowthama/gowtham_ws/build/bot_control
+[6.829s] -- Install configuration: ""
+[6.829s] -- Execute custom install script
+[6.830s] -- Symlinking: /home/gowthama/gowtham_ws/install/bot_control/share/bot_control/launch/control.launch.py
+[6.840s] [31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:100 (message):
+[6.840s]   ament_cmake_symlink_install_directory() can't find
+[6.840s]   '/home/gowthama/gowtham_ws/src/bot_control/worlds'
+[6.840s] Call Stack (most recent call first):
+[6.840s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314 (ament_cmake_symlink_install_directory)
+[6.840s]   cmake_install.cmake:46 (include)
+[6.840s] 
+[6.840s] [0m
+[6.841s] Invoked command in '/home/gowthama/gowtham_ws/build/bot_control' returned '1': CMAKE_PREFIX_PATH=/home/gowthama/gowtham_ws/install/robot_control:/home/gowthama/gowtham_ws/install/gowtham_ros:/home/gowthama/gowtham_ws/install/bot_world:/home/gowthama/gowtham_ws/install/bot_description:/home/gowthama/ros2_ws/install/ydlidar_sdk:/home/gowthama/ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble:/home/gowthama/ros2_ws/install/custom_robot_description:/home/gowthama/ros2_ws/install/aws_robomaker_hospital_world /usr/bin/cmake --install /home/gowthama/gowtham_ws/build/bot_control

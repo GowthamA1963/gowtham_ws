@@ -1,0 +1,54 @@
+[0.016s] Invoking command in '/home/gowthama/gowtham_ws/build/bot_world': CMAKE_PREFIX_PATH=/home/gowthama/gowtham_ws/install/bot_world:/home/gowthama/gowtham_ws/install/robot_control:/home/gowthama/gowtham_ws/install/gowtham_ros:/home/gowthama/gowtham_ws/install/bot_description:/home/gowthama/ros2_ws/install/ydlidar_sdk:/home/gowthama/ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble:/home/gowthama/ros2_ws/install/custom_robot_description:/home/gowthama/ros2_ws/install/aws_robomaker_hospital_world /usr/bin/cmake --build /home/gowthama/gowtham_ws/build/bot_world -- -j12 -l12
+[0.081s] Invoked command in '/home/gowthama/gowtham_ws/build/bot_world' returned '0': CMAKE_PREFIX_PATH=/home/gowthama/gowtham_ws/install/bot_world:/home/gowthama/gowtham_ws/install/robot_control:/home/gowthama/gowtham_ws/install/gowtham_ros:/home/gowthama/gowtham_ws/install/bot_description:/home/gowthama/ros2_ws/install/ydlidar_sdk:/home/gowthama/ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble:/home/gowthama/ros2_ws/install/custom_robot_description:/home/gowthama/ros2_ws/install/aws_robomaker_hospital_world /usr/bin/cmake --build /home/gowthama/gowtham_ws/build/bot_world -- -j12 -l12
+[0.082s] Invoking command in '/home/gowthama/gowtham_ws/build/bot_world': CMAKE_PREFIX_PATH=/home/gowthama/gowtham_ws/install/bot_world:/home/gowthama/gowtham_ws/install/robot_control:/home/gowthama/gowtham_ws/install/gowtham_ros:/home/gowthama/gowtham_ws/install/bot_description:/home/gowthama/ros2_ws/install/ydlidar_sdk:/home/gowthama/ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble:/home/gowthama/ros2_ws/install/custom_robot_description:/home/gowthama/ros2_ws/install/aws_robomaker_hospital_world /usr/bin/cmake --install /home/gowthama/gowtham_ws/build/bot_world
+[0.091s] -- Install configuration: ""
+[0.092s] -- Execute custom install script
+[0.092s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/launch/world.launch.py
+[0.093s] -- Symlinking: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/worlds/build/.built_by
+[0.093s] [33mCMake Warning (dev) at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:62 (file):
+[0.093s]   Policy CMP0009 is not set: FILE GLOB_RECURSE calls should not follow
+[0.094s]   symlinks by default.  Run "cmake --help-policy CMP0009" for policy details.
+[0.094s]   Use the cmake_policy command to set the policy and suppress this warning.
+[0.094s] Call Stack (most recent call first):
+[0.094s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314 (ament_cmake_symlink_install_directory)
+[0.094s]   cmake_install.cmake:46 (include)
+[0.094s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.094s] [0m
+[0.104s] -- Symlinking: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/worlds/build/COLCON_IGNORE
+[0.118s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/worlds/custom_map.world
+[0.120s] -- Symlinking: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/worlds/install/.colcon_install_layout
+[0.131s] -- Symlinking: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/worlds/install/COLCON_IGNORE
+[0.143s] -- Symlinking: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/worlds/install/_local_setup_util_ps1.py
+[0.155s] -- Symlinking: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/worlds/install/_local_setup_util_sh.py
+[0.168s] -- Symlinking: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/worlds/install/local_setup.bash
+[0.179s] -- Symlinking: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/worlds/install/local_setup.ps1
+[0.190s] -- Symlinking: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/worlds/install/local_setup.sh
+[0.202s] -- Symlinking: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/worlds/install/local_setup.zsh
+[0.214s] -- Symlinking: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/worlds/install/setup.bash
+[0.226s] -- Symlinking: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/worlds/install/setup.ps1
+[0.239s] -- Symlinking: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/worlds/install/setup.sh
+[0.253s] -- Symlinking: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/worlds/install/setup.zsh
+[0.267s] -- Symlinking: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/worlds/log/COLCON_IGNORE
+[0.283s] -- Symlinking: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/worlds/log/build_2025-04-15_11-11-13/events.log
+[0.295s] -- Symlinking: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/worlds/log/build_2025-04-15_11-11-13/logger_all.log
+[0.307s] -- Symlinking: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/worlds/log/latest/events.log
+[0.318s] -- Symlinking: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/worlds/log/latest/logger_all.log
+[0.331s] -- Symlinking: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/worlds/log/latest_build/events.log
+[0.342s] -- Symlinking: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/worlds/log/latest_build/logger_all.log
+[0.353s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/worlds/my_world.world
+[0.354s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_world/share/ament_index/resource_index/package_run_dependencies/bot_world
+[0.354s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_world/share/ament_index/resource_index/parent_prefix_path/bot_world
+[0.354s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/environment/ament_prefix_path.sh
+[0.354s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/environment/ament_prefix_path.dsv
+[0.355s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/environment/path.sh
+[0.355s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/environment/path.dsv
+[0.355s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/local_setup.bash
+[0.355s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/local_setup.sh
+[0.355s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/local_setup.zsh
+[0.355s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/local_setup.dsv
+[0.356s] -- Symlinking: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/package.dsv
+[0.367s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_world/share/ament_index/resource_index/packages/bot_world
+[0.367s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/cmake/bot_worldConfig.cmake
+[0.367s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/cmake/bot_worldConfig-version.cmake
+[0.367s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_world/share/bot_world/package.xml
+[0.371s] Invoked command in '/home/gowthama/gowtham_ws/build/bot_world' returned '0': CMAKE_PREFIX_PATH=/home/gowthama/gowtham_ws/install/bot_world:/home/gowthama/gowtham_ws/install/robot_control:/home/gowthama/gowtham_ws/install/gowtham_ros:/home/gowthama/gowtham_ws/install/bot_description:/home/gowthama/ros2_ws/install/ydlidar_sdk:/home/gowthama/ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble:/home/gowthama/ros2_ws/install/custom_robot_description:/home/gowthama/ros2_ws/install/aws_robomaker_hospital_world /usr/bin/cmake --install /home/gowthama/gowtham_ws/build/bot_world

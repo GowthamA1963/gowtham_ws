@@ -1,0 +1,12 @@
+[0.013s] Invoking command in '/home/gowthama/gowtham_ws/build/bot_description': CMAKE_PREFIX_PATH=/home/gowthama/gowtham_ws/install/robot_control:/home/gowthama/gowtham_ws/install/gowtham_ros:/home/gowthama/gowtham_ws/install/bot_world:/home/gowthama/gowtham_ws/install/bot_description:/home/gowthama/ros2_ws/install/ydlidar_sdk:/home/gowthama/ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble:/home/gowthama/ros2_ws/install/custom_robot_description:/home/gowthama/ros2_ws/install/aws_robomaker_hospital_world /usr/bin/cmake --build /home/gowthama/gowtham_ws/build/bot_description -- -j12 -l12
+[0.031s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.128s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.134s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.189s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.200s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.201s] -- Added test 'lint_cmake' to check CMake code style
+[0.202s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.208s] -- Added test 'xmllint' to check XML markup files
+[0.209s] -- Configuring done
+[0.213s] -- Generating done
+[0.214s] -- Build files have been written to: /home/gowthama/gowtham_ws/build/bot_description

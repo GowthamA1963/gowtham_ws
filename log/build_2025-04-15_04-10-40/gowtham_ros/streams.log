@@ -1,0 +1,30 @@
+[0.014s] Invoking command in '/home/gowthama/gowtham_ws/build/gowtham_ros': CMAKE_PREFIX_PATH=/home/gowthama/ros2_ws/install/ydlidar_sdk:/home/gowthama/ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble:/home/gowthama/ros2_ws/install/custom_robot_description:/home/gowthama/ros2_ws/install/aws_robomaker_hospital_world /usr/bin/cmake --build /home/gowthama/gowtham_ws/build/gowtham_ros -- -j12 -l12
+[0.072s] Invoked command in '/home/gowthama/gowtham_ws/build/gowtham_ros' returned '0': CMAKE_PREFIX_PATH=/home/gowthama/ros2_ws/install/ydlidar_sdk:/home/gowthama/ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble:/home/gowthama/ros2_ws/install/custom_robot_description:/home/gowthama/ros2_ws/install/aws_robomaker_hospital_world /usr/bin/cmake --build /home/gowthama/gowtham_ws/build/gowtham_ros -- -j12 -l12
+[0.087s] Invoking command in '/home/gowthama/gowtham_ws/build/gowtham_ros': CMAKE_PREFIX_PATH=/home/gowthama/ros2_ws/install/ydlidar_sdk:/home/gowthama/ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble:/home/gowthama/ros2_ws/install/custom_robot_description:/home/gowthama/ros2_ws/install/aws_robomaker_hospital_world /usr/bin/cmake --install /home/gowthama/gowtham_ws/build/gowtham_ros
+[0.097s] -- Install configuration: ""
+[0.098s] -- Execute custom install script
+[0.099s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/gowtham_ros/share/gowtham_ros/config/empty.yaml
+[0.099s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/gowtham_ros/share/gowtham_ros/description/gazebo_control.xacro
+[0.099s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/gowtham_ros/share/gowtham_ros/description/inertial_macros.xacro
+[0.099s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/gowtham_ros/share/gowtham_ros/description/lidar.xacro
+[0.099s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/gowtham_ros/share/gowtham_ros/description/robot.urdf.xacro
+[0.099s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/gowtham_ros/share/gowtham_ros/description/robot_core.xacro
+[0.100s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/gowtham_ros/share/gowtham_ros/launch/launch_sim.launch.py
+[0.100s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/gowtham_ros/share/gowtham_ros/launch/rviz.py
+[0.100s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/gowtham_ros/share/gowtham_ros/worlds/empty.world
+[0.100s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/gowtham_ros/share/ament_index/resource_index/package_run_dependencies/gowtham_ros
+[0.100s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/gowtham_ros/share/ament_index/resource_index/parent_prefix_path/gowtham_ros
+[0.101s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/gowtham_ros/share/gowtham_ros/environment/ament_prefix_path.sh
+[0.101s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/gowtham_ros/share/gowtham_ros/environment/ament_prefix_path.dsv
+[0.101s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/gowtham_ros/share/gowtham_ros/environment/path.sh
+[0.101s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/gowtham_ros/share/gowtham_ros/environment/path.dsv
+[0.101s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/gowtham_ros/share/gowtham_ros/local_setup.bash
+[0.102s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/gowtham_ros/share/gowtham_ros/local_setup.sh
+[0.102s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/gowtham_ros/share/gowtham_ros/local_setup.zsh
+[0.102s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/gowtham_ros/share/gowtham_ros/local_setup.dsv
+[0.102s] -- Symlinking: /home/gowthama/gowtham_ws/install/gowtham_ros/share/gowtham_ros/package.dsv
+[0.115s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/gowtham_ros/share/ament_index/resource_index/packages/gowtham_ros
+[0.115s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/gowtham_ros/share/gowtham_ros/cmake/gowtham_rosConfig.cmake
+[0.115s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/gowtham_ros/share/gowtham_ros/cmake/gowtham_rosConfig-version.cmake
+[0.116s] -- Up-to-date symlink: /home/gowthama/gowtham_ws/install/gowtham_ros/share/gowtham_ros/package.xml
+[0.118s] Invoked command in '/home/gowthama/gowtham_ws/build/gowtham_ros' returned '0': CMAKE_PREFIX_PATH=/home/gowthama/ros2_ws/install/ydlidar_sdk:/home/gowthama/ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble:/home/gowthama/ros2_ws/install/custom_robot_description:/home/gowthama/ros2_ws/install/aws_robomaker_hospital_world /usr/bin/cmake --install /home/gowthama/gowtham_ws/build/gowtham_ros

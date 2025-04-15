@@ -1,0 +1,2 @@
+/home/gowthama/gowtham_ws/install/bot_world/share/bot_world/launch/world.launch.py
+/home/gowthama/gowtham_ws/install/bot_world/share/bot_world/worlds/obstacles.world

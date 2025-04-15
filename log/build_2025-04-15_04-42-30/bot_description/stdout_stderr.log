@@ -1,0 +1,24 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_description/share/bot_description/config/empty.yaml
+-- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_description/share/bot_description/description/inertial_macros.xacro
+-- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_description/share/bot_description/description/robot.urdf.xacro
+-- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_description/share/bot_description/description/robot_core.xacro
+-- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_description/share/bot_description/launch/rviz.py
+-- Symlinking: /home/gowthama/gowtham_ws/install/bot_description/share/bot_description/launch/spawn.launch.py
+-- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_description/share/bot_description/worlds/empty.world
+-- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_description/share/ament_index/resource_index/package_run_dependencies/bot_description
+-- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_description/share/ament_index/resource_index/parent_prefix_path/bot_description
+-- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_description/share/bot_description/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_description/share/bot_description/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_description/share/bot_description/environment/path.sh
+-- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_description/share/bot_description/environment/path.dsv
+-- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_description/share/bot_description/local_setup.bash
+-- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_description/share/bot_description/local_setup.sh
+-- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_description/share/bot_description/local_setup.zsh
+-- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_description/share/bot_description/local_setup.dsv
+-- Symlinking: /home/gowthama/gowtham_ws/install/bot_description/share/bot_description/package.dsv
+-- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_description/share/ament_index/resource_index/packages/bot_description
+-- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_description/share/bot_description/cmake/bot_descriptionConfig.cmake
+-- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_description/share/bot_description/cmake/bot_descriptionConfig-version.cmake
+-- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_description/share/bot_description/package.xml

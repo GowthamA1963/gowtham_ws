@@ -1,0 +1,12 @@
+[100%] Built target reading_laser
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/gowthama/gowtham_ws/install/bot_control/share/bot_control/launch/control.launch.py
+[31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:100 (message):
+  ament_cmake_symlink_install_directory() can't find
+  '/home/gowthama/gowtham_ws/src/bot_control/worlds'
+Call Stack (most recent call first):
+  ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314 (ament_cmake_symlink_install_directory)
+  cmake_install.cmake:46 (include)
+
+[0m

@@ -1,0 +1,27 @@
+[0.009s] Invoking command in '/home/gowthama/gowtham_ws/build/bot_world': CMAKE_PREFIX_PATH=/home/gowthama/gowtham_ws/install/bot_world:/home/gowthama/gowtham_ws/install/robot_control:/home/gowthama/gowtham_ws/install/gowtham_ros:/home/gowthama/gowtham_ws/install/bot_description:/home/gowthama/ros2_ws/install/ydlidar_sdk:/home/gowthama/ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble:/home/gowthama/ros2_ws/install/custom_robot_description:/home/gowthama/ros2_ws/install/aws_robomaker_hospital_world /usr/bin/cmake --build /home/gowthama/gowtham_ws/build/bot_world -- -j12 -l12
+[0.031s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.133s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.147s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.205s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.206s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.207s] -- Configured cppcheck include dirs: 
+[0.207s] -- Configured cppcheck exclude dirs and/or files: 
+[0.208s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.208s] -- Configured cpplint exclude dirs and/or files: 
+[0.209s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.209s] -- Added test 'lint_cmake' to check CMake code style
+[0.210s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.211s] -- Added test 'uncrustify' to check C / C++ code style
+[0.211s] -- Configured uncrustify additional arguments: 
+[0.212s] -- Added test 'xmllint' to check XML markup files
+[0.213s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[0.213s]   ament_target_dependencies() the passed package name 'rclcpp' was not found
+[0.213s]   before
+[0.213s] Call Stack (most recent call first):
+[0.213s]   CMakeLists.txt:43 (ament_target_dependencies)
+[0.213s] 
+[0.213s] [0m
+[0.213s] -- Configuring incomplete, errors occurred!
+[0.213s] See also "/home/gowthama/gowtham_ws/build/bot_world/CMakeFiles/CMakeOutput.log".
+[0.216s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.218s] Invoked command in '/home/gowthama/gowtham_ws/build/bot_world' returned '2': CMAKE_PREFIX_PATH=/home/gowthama/gowtham_ws/install/bot_world:/home/gowthama/gowtham_ws/install/robot_control:/home/gowthama/gowtham_ws/install/gowtham_ros:/home/gowthama/gowtham_ws/install/bot_description:/home/gowthama/ros2_ws/install/ydlidar_sdk:/home/gowthama/ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble:/home/gowthama/ros2_ws/install/custom_robot_description:/home/gowthama/ros2_ws/install/aws_robomaker_hospital_world /usr/bin/cmake --build /home/gowthama/gowtham_ws/build/bot_world -- -j12 -l12
